@@ -1,0 +1,370 @@
+.banner-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.08) 28.38%, rgba(0, 0, 0, 0.60) 100%), url('images/banner-bg.jpg') no-repeat 85% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-banner {
+    margin-top: 3rem;
+}
+
+.hubble-logo {
+    height: 164px;
+    width: 220px;
+}
+
+.celebrate {
+    font-size: 80px;
+}
+
+.body-text {
+    font-size: 3rem;
+}
+
+.hubble-heading {
+    font-size: 134px;
+}
+
+.hubble-telescope {
+    height: 350px;
+    width: 450px;
+    position: absolute;
+    left: 36%;
+    top: 22%;
+}
+
+.bottom-text {
+    letter-spacing: 1.25rem;
+}
+
+.milestone-section-bg {
+    background: url('images/on-light-bg.png') no-repeat top center, linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 1.0));
+    background-size: cover;
+}
+
+.milestone-heading {
+    font-size: 3.5rem;
+}
+
+.date-bg {
+    height: 4rem;
+}
+
+.calendar-row {
+    height: 24rem;
+}
+
+.calendar-bg {
+    background: url('images/star.svg') no-repeat 90% top, url('images/calendar.svg') no-repeat center center;
+    background-size: 150px 150px, 250px 350px;
+}
+
+.date-body {
+    position: relative;
+    height: 20rem;
+    width: 30rem;
+    left: -10px;
+    top: -10px;
+}
+
+.date-head {
+    height: 20rem;
+    width: 30rem;
+}
+
+.theory-bg {
+    background: url('images/theory-bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+.card-bg {
+    /* border-radius: 24px; */
+    background: rgba(128, 128, 128, 0.30);
+    background-blend-mode: luminosity;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(50px);
+}
+
+.card-img {
+    height: 200px;
+    width: 100%;
+}
+
+.wfirst-bg {
+    background: url('images/on-light-bg.png') no-repeat top center, linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 1.0));
+    background-size: cover;
+}
+
+.wfirst-heading {
+    font-size: 3.5rem;
+}
+
+.wfirst-col-body {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    left: -10px;
+    top: -10px;
+}
+
+.wfirst-col-head {
+    height: 20rem;
+    width: 70%;
+}
+
+@media (min-width: 1400px) {
+    .hero-banner {
+        margin-top: 5rem;
+    }
+    .celebrate {
+        font-size: 120px;
+    }
+    .hubble-logo {
+        height: 200px;
+        width: 400px;
+    }
+    .body-text {
+        font-size: 100px;
+    }
+    .hubble-heading {
+        font-size: 200px;
+    }
+    .bottom-text {
+        letter-spacing: 1.80rem;
+    }
+    .hubble-telescope {
+        height: 460px;
+        width: 582px;
+        position: absolute;
+        left: 36%;
+        top: 22%;
+    }
+    .milestone-heading {
+        font-size: 5rem;
+    }
+    .calendar-row {
+        height: 28rem;
+    }
+    .calendar-bg {
+        background: url('images/star.svg') no-repeat 90% top, url('images/calendar.svg') no-repeat center center;
+        background-size: 240px 240px, 390px 460px;
+    }
+    .date-body {
+        position: relative;
+        height: 20rem;
+        width: 40rem;
+        left: -10px;
+        top: -10px;
+    }
+    .date-head {
+        height: 20rem;
+        width: 40rem;
+    }
+    .date-para {
+        font-size: 20px;
+    }
+    .card-img {
+        height: 350px;
+        width: 100%;
+    }
+    .theory-text {
+        font-size: 1.5rem;
+    }
+    .wfirst-heading {
+        font-size: 5.5rem;
+    }
+    .wfirst-sub-head {
+        font-size: 2rem;
+    }
+    .wfirst-col-body {
+        position: relative;
+        height: 20rem;
+        width: 100%;
+        left: -10px;
+        top: -10px;
+    }
+    .wfirst-col-head {
+        height: 20rem;
+        width: 90%;
+    }
+    .wfirst-para {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-banner {
+        margin-top: 5rem;
+    }
+    .hubble-logo {
+        height: 180px;
+        width: 380px;
+    }
+    .body-text {
+        font-size: 64px;
+    }
+    .bottom-text {
+        letter-spacing: 0.78rem;
+    }
+    .hubble-telescope {
+        height: 350px;
+        width: 450px;
+        position: absolute;
+        left: 20%;
+        top: 60%;
+    }
+    .milestone-heading {
+        font-size: 3rem;
+    }
+    .date-bg {
+        height: 8rem;
+    }
+    .calendar-row {
+        height: 50rem;
+    }
+    .calendar-bg {
+        background: url('images/star.svg') no-repeat 65% 20%, url('images/calendar.svg') no-repeat center center;
+        background-size: 80px 80px, 200px 400px;
+        height: 20rem;
+    }
+    .date-body {
+        position: relative;
+        height: 28rem;
+        width: 100%;
+        left: -10px;
+        top: -10px;
+    }
+    .date-head {
+        height: 28rem;
+        width: 90%;
+    }
+    .date-para {
+        font-size: 20px;
+    }
+    .calendar-bg h4 {
+        /* font-size: large; */
+        margin-top: 2rem;
+    }
+    .theory-text {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .wfirst-heading {
+        font-size: 5rem;
+    }
+    .wfirst-sub-head {
+        font-size: 2.5rem;
+    }
+    .wfirst-col-body {
+        position: relative;
+        height: 40rem;
+        width: 100%;
+        left: -10px;
+        top: -10px;
+    }
+    .wfirst-col-head {
+        height: 40rem;
+        width: 90%;
+    }
+    .wfirst-para {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-banner {
+        margin-top: 3rem;
+    }
+    .celebrate {
+        font-size: 36px;
+    }
+    .hubble-logo {
+        height: 72px;
+        width: 200px;
+    }
+    .body-text {
+        font-size: 36px;
+    }
+    .hubble-heading {
+        font-size: 60px;
+    }
+    .bottom-text {
+        letter-spacing: 1.79px;
+    }
+    .hubble-telescope {
+        height: 220px;
+        width: 250px;
+        position: absolute;
+        left: 18%;
+        top: 56%;
+    }
+    .milestone-heading {
+        font-size: 2rem;
+    }
+    .date-bg {
+        height: 8rem;
+    }
+    .calendar-row {
+        height: 28rem;
+    }
+    .calendar-bg {
+        background: url('images/star.svg') no-repeat 65% 20%, url('images/calendar.svg') no-repeat center center;
+        background-size: 44px 44px, 100px 300px;
+        height: 10rem;
+    }
+    .date-body {
+        position: relative;
+        height: 18rem;
+        width: 100%;
+        left: -10px;
+        top: -10px;
+    }
+    .date-head {
+        height: 18rem;
+        width: 90%;
+    }
+    .date-para {
+        font-size: 14px;
+    }
+    .calendar-bg h4 {
+        font-size: small;
+        margin-top: 2rem;
+    }
+    .card-img {
+        height: 100px;
+        width: 100%;
+    }
+    .theory-text {
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .wfirst-heading {
+        font-size: 3rem;
+    }
+    .wfirst-sub-head {
+        font-size: 1.75rem;
+    }
+    .wfirst-col-body {
+        position: relative;
+        height: 20rem;
+        width: 100%;
+        left: -10px;
+        top: -10px;
+    }
+    .wfirst-col-head {
+        height: 20rem;
+        width: 90%;
+    }
+    .wfirst-para {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 375px) {
+    .body-text {
+        font-size: 34px;
+    }
+    .bottom-text {
+        letter-spacing: 0.65px;
+    }
+}

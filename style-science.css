@@ -1,0 +1,287 @@
+.science-banner {
+    background: url('images/bulb.png') no-repeat 36% 56%, url('images/science-title.svg') no-repeat center 60%, url('images/science-banner.png') no-repeat center center, linear-gradient(rgba(21, 22, 22, 1.0), rgba(21, 22, 22, 1.0));
+    background-size: 350px 450px, 1000px 200px, cover;
+    background-attachment: fixed;
+}
+
+.transparent-bg {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(21, 22, 22, 0.0), rgba(21, 22, 22, 0.0));
+}
+
+.img-bg-1 {
+    background: url('images/science-card-3.svg') no-repeat center bottom, url('images/science-card-2.svg') no-repeat left center, url('images/science-card-1.svg') no-repeat right top;
+    background-size: 324px 380px, 324px 380px, 324px 380px;
+}
+
+.img-bg-2 {
+    background: url('images/science-card-4.svg') no-repeat left top, url('images/science-card-6.svg') no-repeat center bottom, url('images/science-card-5.svg') no-repeat right center;
+    background-size: 324px 380px, 324px 380px, 324px 380px;
+}
+
+.latest-science-bg {
+    background: url('images/on-light-bg.png') no-repeat top center, linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 1.0));
+    background-size: cover;
+}
+
+.latest-heading {
+    font-size: 3.5rem;
+}
+
+.latest-col-body {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    left: -10px;
+    top: -10px;
+}
+
+.latest-col-head {
+    height: 20rem;
+    width: 70%;
+}
+
+.science-cards-bg {
+    background: url('images/theory-bg.png') no-repeat center center, linear-gradient(rgba(21, 22, 22, 1.0), rgba(21, 22, 22, 1.0));
+    background-size: cover;
+}
+
+.science-card {
+    background: rgba(128, 128, 128, 0.30);
+    background-blend-mode: luminosity;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(50px);
+    height: 250px;
+    width: 90%;
+    transition: all 0.3s ease-out;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -10px;
+    transition: all 0.3s ease-out;
+}
+
+.science-card:hover img {
+    height: 210px;
+    width: 210px;
+    top: -30px;
+}
+
+.concepts-bg {
+    background: url('images/on-light-bg.png') no-repeat top center, linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 1.0));
+    background-size: cover;
+}
+
+.concepts-heading {
+    font-size: 3.5rem;
+}
+
+.key-body {
+    position: relative;
+    height: 8rem;
+    width: 34rem;
+    right: 20px;
+    top: -10px;
+}
+
+.key-head {
+    height: 8rem;
+    width: 34rem;
+}
+
+.key-body img {
+    height: 100px;
+    width: 180px;
+}
+
+@media (min-width: 1400px) {
+    .science-banner {
+        background: url('images/bulb.png') no-repeat 35% 50%, url('images/science-title.svg') no-repeat center 50%, url('images/science-banner.png') no-repeat center center, linear-gradient(rgba(21, 22, 22, 1.0), rgba(21, 22, 22, 1.0));
+        background-size: 516px 616px, 1320px 285px, cover;
+        background-attachment: fixed;
+    }
+    .img-bg-1 {
+        background: url('images/science-card-3.svg') no-repeat center bottom, url('images/science-card-2.svg') no-repeat left center, url('images/science-card-1.svg') no-repeat right top;
+        background-size: 424px 480px, 424px 480px, 424px 480px;
+    }
+    .img-bg-2 {
+        background: url('images/science-card-4.svg') no-repeat left top, url('images/science-card-6.svg') no-repeat center bottom, url('images/science-card-5.svg') no-repeat right center;
+        background-size: 424px 480px, 424px 480px, 424px 480px;
+    }
+    .latest-heading {
+        font-size: 5.5rem;
+    }
+    .latest-sub-head {
+        font-size: 2rem;
+    }
+    .latest-col-body {
+        position: relative;
+        height: 20rem;
+        width: 100%;
+        left: -10px;
+        top: -10px;
+    }
+    .latest-col-head {
+        height: 20rem;
+        width: 90%;
+    }
+    .latest-para {
+        font-size: 1.5rem;
+    }
+    .science-card {
+        height: 350px;
+        width: 90%;
+        transition: all 0.3s ease-out;
+    }
+    .card-image {
+        height: 300px;
+        width: 300px;
+        position: relative;
+        top: -30px;
+        transition: all 0.3s ease-out;
+    }
+    .science-card:hover img {
+        height: 310px;
+        width: 310px;
+        top: -50px;
+    }
+    .concepts-heading {
+        font-size: 5rem;
+    }
+    .key-body {
+        position: relative;
+        height: 10rem;
+        width: 36rem;
+        right: 20px;
+        top: -10px;
+    }
+    .key-head {
+        height: 10rem;
+        width: 36rem;
+    }
+    .key-body img {
+        height: 136px;
+        width: 180px;
+    }
+    .concept-name {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .science-banner {
+        background: url('images/bulb.png') no-repeat 30% 50%, url('images/science-title.svg') no-repeat 50% 50%, url('images/science-banner.png') no-repeat center center, linear-gradient(rgba(21, 22, 22, 1.0), rgba(21, 22, 22, 1.0));
+        background-size: 250px 350px, 600px 200px, cover;
+        background-attachment: fixed;
+    }
+    .latest-heading {
+        font-size: 5rem;
+    }
+    .latest-sub-head {
+        font-size: 2.5rem;
+    }
+    .latest-col-body {
+        position: relative;
+        height: 40rem;
+        width: 100%;
+        left: -10px;
+        top: -10px;
+    }
+    .latest-col-head {
+        height: 40rem;
+        width: 90%;
+    }
+    .latest-para {
+        font-size: 1.5rem;
+    }
+    .science-card {
+        height: 250px;
+        width: 50%;
+        transition: all 0.3s ease-out;
+    }
+}
+
+@media (max-width: 768px) {
+    .science-banner {
+        background: url('images/bulb.png') no-repeat 32% 50%, url('images/science-title.svg') no-repeat 50% 50%, url('images/science-banner.png') no-repeat left center, linear-gradient(rgba(21, 22, 22, 1.0), rgba(21, 22, 22, 1.0));
+        background-size: 120px 150px, 300px 100px, cover;
+        background-attachment: fixed;
+    }
+    .img-bg-1 {
+        background: url('images/science-card-3.svg') no-repeat center bottom, url('images/science-card-2.svg') no-repeat left center, url('images/science-card-1.svg') no-repeat right top;
+        background-size: 224px 230px, 224px 230px, 224px 230px;
+    }
+    .img-bg-2 {
+        background: url('images/science-card-4.svg') no-repeat left top, url('images/science-card-6.svg') no-repeat center bottom, url('images/science-card-5.svg') no-repeat right center;
+        background-size: 224px 230px, 224px 230px, 224px 230px;
+    }
+    .latest-heading {
+        font-size: 3rem;
+    }
+    .latest-sub-head {
+        font-size: 1.75rem;
+    }
+    .latest-col-body {
+        position: relative;
+        height: 20rem;
+        width: 100%;
+        left: -10px;
+        top: -10px;
+    }
+    .latest-col-head {
+        height: 20rem;
+        width: 90%;
+    }
+    .latest-para {
+        font-size: 14px;
+    }
+    .science-card {
+        background: rgba(128, 128, 128, 0.30);
+        background-blend-mode: luminosity;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+        backdrop-filter: blur(50px);
+        height: 150px;
+        width: 50%;
+        transition: all 0.3s ease-out;
+    }
+    .card-image {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: -10px;
+        transition: all 0.3s ease-out;
+    }
+    .science-card:hover img {
+        height: 110px;
+        width: 110px;
+        top: -30px;
+    }
+    .card-heading {
+        font-size: 0.8rem;
+    }
+    .concepts-heading {
+        font-size: 2rem;
+    }
+    .key-body {
+        position: relative;
+        height: 6rem;
+        width: 20rem;
+        right: 20px;
+        top: -10px;
+    }
+    .key-head {
+        height: 6rem;
+        width: 20rem;
+    }
+    .key-body img {
+        height: 74px;
+        width: 150px;
+    }
+    .concept-name {
+        font-size: 1rem;
+    }
+}

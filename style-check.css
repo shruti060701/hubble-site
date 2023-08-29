@@ -1,0 +1,62 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+} */
+
+.container-car {
+    position: relative;
+    max-width: 500px;
+    margin-left: auto;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+.wrapper {
+    position: relative;
+}
+
+.item-car {
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+}
+
+.big-circle {
+    height: 300px;
+    overflow: visible;
+    width: 300px;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.st0 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 2;
+    stroke-miterlimit: 1;
+}
+
+.start {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+}
